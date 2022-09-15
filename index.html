@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COLOR FLIPPER</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+           
+        }
+        p{
+          width: 450px;
+          font-size:2rem;
+          text-align: center;
+          background-color: black;
+          color: white;
+          padding: 10px 5px;
+          transform: translate(-50%, 0);
+         position: relative;
+         left: 50%;
+        }
+        p span{
+            color: white;
+            text-transform: capitalize;
+            font-weight: 700;
+        }
+        button{
+            display: inline-block;
+            transform: translate(-50%, 0);
+            position: absolute;
+            left: 50%;
+            margin-top: 30px;
+            padding: 15px 13px;
+            color: black;
+            background-color: transparent;
+            border: 1px solid gray;
+            cursor: pointer;
+            font-weight: 800;
+            font-size: 0.7rem;
+        }
+  
+    </style>
+</head>
+<body>
+    
+   
+    <div class="flip">
+        <h1>A PROGRAM THAT FLIPS THE BACKGROUND COLOR AT RANDOM</h1>
+        <p>Background-color : <span>White</span></p>
+        <button type="button">FLIP COLOR</button>
+    </div>
+   
+
+    <script src="script.js"></script>
+</body>
+</html>
